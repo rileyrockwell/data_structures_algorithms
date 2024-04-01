@@ -1,0 +1,11 @@
+google doc OR paste solution into a text file?
+5 pages
+5 medium problem solutions
+
+###
+
+(1). intuition for solving
+(2). algomonster explanation
+(3). where intuition was right (focus on the positive)
+(4). where intuition can be improved
+(5). new approach will you take in the future
