@@ -1,3 +1,5 @@
+# array, hashtable, divide and conquer, sorting, counting
+
 from typing import *
 
 def majorityElement(nums: List[int]) -> int:

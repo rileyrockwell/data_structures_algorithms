@@ -1,1 +1,1 @@
-# don't have leetcode premium.
+# leetcode premium.
