@@ -4,14 +4,13 @@ def majorityElement(nums: List[int]) -> int:
     
     freq_dict = {integer: nums.count(integer) for integer in nums}
 
-    # return freq_dict
+    max_val = max(freq_dict.values())
 
-    index_dict = {integer: index for index in enumerate(nums)}
-
-    return index_dict
+    return max_val
 
 
-# given: there will always exist a majoirty element
+
+# given: there will always exist a majority element
 nums = [0, 1, 2, 1, 1]
 
 print(majorityElement(nums))
