@@ -4,7 +4,8 @@ from typing import *
 
 # submitted to leetcode
 def maxEarnings(prices: List[int]) -> int:
-      
+      # think about the problem in a new way
+      # do not reinforce bad habits / old ways
 
 # algomonster solution
 def maxEarnings(prices: List[int]) -> int:
