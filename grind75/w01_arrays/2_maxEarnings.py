@@ -2,6 +2,10 @@
 
 from typing import *
 
+# submitted to leetcode
+def maxEarnings(prices: List[int]) -> int:
+      
+
 # algomonster solution
 def maxEarnings(prices: List[int]) -> int:
     max_profit = 0
@@ -16,8 +20,4 @@ def maxEarnings(prices: List[int]) -> int:
 
     return max_profit
 
-
-# rgr solution
-def maxEarnings(prices: List[int]) -> int:
-      pass
 

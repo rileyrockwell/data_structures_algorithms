@@ -2,38 +2,33 @@
 
 from typing import *
 
-def moveZeros(nums: List[int]) -> None:
-    
-    # if returning
-    
-    # return_list = []
+# submitted to leetcode
+def moveZeroes(nums: List[int]) -> None:
+    # think about the problem in a new way.
+    # stop w/ old ways of thinking.
 
-    # for i in reversed(nums):
-    #     if i == 0:
-    #         return_list.append(i)
-    #     else:
-    #         return_list.insert(0, i)
 
-    # return return_list
+# algomonster solution
+def moveZeroes(nums: List[int]) -> None:
+    last_non_zero_index = 0
 
-    # if not returning. modify numers in-place.
+    for current, value in enumerate(nums):
+        # when a non-zero element is found
+        if value != 0:
+            # swap
+            nums[last_non_zero_index], nums[current] = nums[current], nums[last_non_zero_index]
+            
+            # increment
+            last_non_zero_index += 1
 
-    for i in reversed(nums):
-        if i == 0:
-            nums.insert(len(nums) - 1, i)
-        else:
-            nums.insert(0, i)
-
-    # return nums
-
-    ###
+    # return nothing: "modify nums in-place."
 
     
 
 
 
 nums = [0, 1, 0, 2, 3, 0]
-print(moveZeros(nums))
+print(moveZeroes(nums))
 
 nums = [0, 1, 0, 3, 12]
-print(moveZeros(nums))
+print(moveZeroes(nums))
