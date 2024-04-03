@@ -8,4 +8,3 @@ def sortedSquares(nums: List[int]) -> int:
 
 nums = [-3, -2, -1, 0, 1, 2, 3, 4]
 print(sortedSquares(nums))
-
