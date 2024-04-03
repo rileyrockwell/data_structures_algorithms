@@ -24,7 +24,11 @@ def moveZeros(nums: List[int]) -> None:
         else:
             nums.insert(0, i)
 
-    return nums
+    # return nums
+
+    ###
+
+    
 
 
 
