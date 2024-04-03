@@ -23,9 +23,6 @@ def moveZeroes(nums: List[int]) -> None:
 
     # return nothing: "modify nums in-place."
 
-    
-
-
 
 nums = [0, 1, 0, 2, 3, 0]
 print(moveZeroes(nums))
