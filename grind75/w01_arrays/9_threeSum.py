@@ -1,8 +1,7 @@
 from typing import *
 
 def threeSum(nums: List[int]) -> List[List[int]]:
-    return -1
-
+    pass
 
 
 

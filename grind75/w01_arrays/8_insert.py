@@ -1,9 +1,7 @@
 from typing import *
 
 def insert(intervals: List[List[int]], new_interval: List[int]) -> List[List[int]]:
-    # explain...
     def merge(intervals: List[List[int]]) -> List[List[int]]:    
-        # explain...
         intervals.sort(key=lambda x: x[0])
         merged_intervals = [intervals[0]]
 
