@@ -2,13 +2,6 @@
 
 from typing import *
 
-# submitted to leetcode
-def moveZeroes(nums: List[int]) -> None:
-    # think about the problem in a new way.
-    # stop w/ old ways of thinking.
-
-
-# algomonster solution
 def moveZeroes(nums: List[int]) -> None:
     last_non_zero_index = 0
 

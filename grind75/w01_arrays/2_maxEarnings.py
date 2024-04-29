@@ -20,4 +20,3 @@ def maxEarnings(prices: List[int]) -> int:
 
     return max_profit
 
-

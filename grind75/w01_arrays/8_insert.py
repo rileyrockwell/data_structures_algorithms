@@ -1,6 +1,5 @@
 from typing import *
 
-# alogmonster solution
 def insert(intervals: List[List[int]], new_interval: List[int]) -> List[List[int]]:
     # explain...
     def merge(intervals: List[List[int]]) -> List[List[int]]:    
