@@ -18,6 +18,8 @@ def topKFrequent(nums: List[int], k: int) -> List[int]:
 
     return [tup[0] for tup in sorted_list[:k]]
 
+    # hint: optimal algorithm is O(n)
+
 nums = [0, 1, 1, 2, 2, 2, 3, 3, 3, 3]
 k = 1
 print(topKFrequent(nums, k))
