@@ -3,11 +3,11 @@
 from typing import *
 
 # submitted to leetcode
-def maxEarnings(prices: List[int]) -> int:
+def bestTime(prices: List[int]) -> int:
       pass
 
 # algomonster solution
-def maxEarnings(prices: List[int]) -> int:
+def bestTime(prices: List[int]) -> int:
     max_profit = 0
 
     min_price = float('int')
